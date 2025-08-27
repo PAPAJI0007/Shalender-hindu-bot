@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shalender Hindu Bot Panel</title>
+</head>
+<body>
+  <h2>Shalender Hindu Bot Control</h2>
+  <form method="POST" action="/start">
+    <label>Facebook Cookies (JSON format):</label><br>
+    <textarea name="cookies" rows="5" cols="60" placeholder='{"c_user":"...","xs":"..."}'></textarea><br><br>
+    <label>Admin ID:</label><br>
+    <input type="text" name="admin_id" placeholder="Enter your Facebook ID"><br><br>
+    <button type="submit">Start Bot</button>
+  </form>
+  <br>
+  <form method="POST" action="/stop">
+    <button type="submit">Stop Bot</button>
+  </form>
+</body>
+</html>
